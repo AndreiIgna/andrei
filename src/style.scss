@@ -1,0 +1,26 @@
+@import "variables";
+@import "~@layered/layered-design";
+@import "wp-reset";
+@import "~animate.css";
+
+
+body {
+	//font-family: 'Lato', Arial, Tahoma sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+.fancy-link {
+	.link-title {
+		font-size: 1.5rem;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+

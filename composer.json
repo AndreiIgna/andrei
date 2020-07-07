@@ -1,0 +1,19 @@
+{
+    "name": "andrei/andrei",
+    "type": "wordpress-theme",
+    "description": "WordPress theme for andrei.net",
+    "keywords": [ "wordpress","theme","bootstrap" ],
+    "homepage": "https://andrei.net",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Andrei Igna",
+            "email": "andrei@igna.me"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.6",
+        "layered/wp-helpers": "^1.10"
+    },
+    "minimum-stability": "stable"
+}
