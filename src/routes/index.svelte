@@ -117,13 +117,13 @@ a {
 	
 	<div class="box">
 
-		<img src="/andrei.png" alt="Andrei" width="200" height="200" class="photo" />
+		<img src="/andrei.jpg" alt="Andrei" width="200" height="200" class="photo" />
 
 		<h1 class="text-center">Andrei Igna</h1>
 
 		<h3>Current work</h3>
-		<p><img src="https://files.heygov.com/assets/heygov-logo.png" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>
-		<p><img src="https://dmns.app/images/domains-app-icon.svg" alt="Domains App" width="20" height="20" /> I make <a href="https://dmns.app" rel="external">Domains App</a>, a web app that helps with searching, organizing and monitoring domain names.</p>
+		<p><img src="/logo-heygov.webp" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>
+		<p><img src="/logo-dmns.app.svg" alt="Domains App" width="20" height="20" /> I make <a href="https://dmns.app" rel="external">Domains App</a>, a web app that helps with searching, organizing and monitoring domain names.</p>
 
 		<h3>Books I read</h3>
 		<a href="https://www.goodreads.com/andreihere" rel="external" class="books">
