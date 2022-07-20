@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font: 800 48px / 1.05em Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font: 700 48px / 1.05em Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	letter-spacing: -0.01em;
 	color: rgb(255, 222, 211);
 }

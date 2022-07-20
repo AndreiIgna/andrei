@@ -127,16 +127,16 @@ a {
 
 		<h3>Books I read</h3>
 		<a href="https://www.goodreads.com/andreihere" rel="external" class="books">
-			<img src="/books/the-three-body-problem.jpg" alt="Book - The three body problem" />
-			<img src="/books/isaac-asimov.jpg" alt="Book - Isaac Asimov" />
-			<img src="/books/atlas-shrugged.jpg" alt="Book - Atlas Shrugged" />
-			<img src="/books/a-spy-among-friends.jpg" alt="Book - A spy among friends" />
-			<img src="/books/the-dark-forest.jpg" alt="Book - The dark forest" />
-			<img src="/books/the-taking-of-k129.jpg" alt="Book - The taking of K129" />
-			<img src="/books/all-the-birds-in-the-sky.jpg" alt="Book - All the birds in the sky" />
-			<img src="/books/creativity-inc.jpg" alt="Book - Creativity Inc" />
-			<img src="/books/digital-heretic.jpg" alt="Book - Digital Heretic" />
-			<img src="/books/lost-and-founder.jpg" alt="Book - Lost and founder" />
+			<img src="/books/the-three-body-problem.jpg" alt="Book - The three body problem" loading="lazy" />
+			<img src="/books/isaac-asimov.jpg" alt="Book - Isaac Asimov" loading="lazy" />
+			<img src="/books/atlas-shrugged.jpg" alt="Book - Atlas Shrugged" loading="lazy" />
+			<img src="/books/a-spy-among-friends.jpg" alt="Book - A spy among friends" loading="lazy" />
+			<img src="/books/the-dark-forest.jpg" alt="Book - The dark forest" loading="lazy" />
+			<img src="/books/the-taking-of-k129.jpg" alt="Book - The taking of K129" loading="lazy" />
+			<img src="/books/all-the-birds-in-the-sky.jpg" alt="Book - All the birds in the sky" loading="lazy" />
+			<img src="/books/creativity-inc.jpg" alt="Book - Creativity Inc" loading="lazy" />
+			<img src="/books/digital-heretic.jpg" alt="Book - Digital Heretic" loading="lazy" />
+			<img src="/books/lost-and-founder.jpg" alt="Book - Lost and founder" loading="lazy" />
 		</a>
 
 		<h3>Follow me on the internet</h3>
