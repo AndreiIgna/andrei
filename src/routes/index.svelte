@@ -1,13 +1,20 @@
 <svelte:head>
 	<title>andrei.net</title>
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Andrei's website" />
-	<meta property="og:description" content="Tap on the link to learn more about Andrei" />
-	<meta property="og:url" content="https://andrei.net" />
-	<meta property="og:site_name" content="Andrei's website" />
-	<meta property="og:image" content="https://andrei.net/andrei-reading.jpg" />
-	<meta name="twitter:card" content="summary_large_image" />
+
+	<meta name="title" content="Andrei's website">
+	<meta name="description" content="Tap this link to learn more about Andrei">
+
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://andrei.net/">
+	<meta property="og:title" content="Andrei's website">
+	<meta property="og:description" content="Tap this link to learn more about Andrei">
+	<meta property="og:image" content="https://andrei.net/andrei-reading.jpg">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://andrei.net/">
+	<meta name="twitter:title" content="Andrei's website">
+	<meta name="twitter:description" content="Tap this link to learn more about Andrei">
+	<meta name="twitter:image" content="https://andrei.net/andrei-reading.jpg">
 	<meta name="twitter:site" content="@AndreiIgna" />
 </svelte:head>
 
