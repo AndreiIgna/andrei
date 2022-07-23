@@ -4,16 +4,12 @@ import { browser } from '$app/env';
 import { page } from '$app/stores';
 import '../app.css';
 
-let id1 = import.meta.env.VERCEL_ANALYTICS_ID;
-let id2 = process.env.VERCEL_ANALYTICS_ID;
-const analyticsId = id1 || id2
+let analyticsId = import.meta.env.VERCEL_ANALYTICS_ID;
 
 console.log({
 	path: $page.url.pathname,
 	params: $page.params,
-	analyticsId,
-	id1,
-	id2
+	analyticsId
 })
 
 $: if (browser && analyticsId) {
