@@ -30,7 +30,7 @@
 
 .box {
 	width: 90%;
-	max-width: 600px;
+	max-width: 550px;
 	margin: 0 auto;
 	padding: 30px 0;
 }
@@ -38,14 +38,14 @@
 .photo {
 	display: block;
 	background-color: pink;
-	width: 200px;
-	height: 200px;
+	width: 170px;
+	height: 170px;
 	border-radius: 100px;
-	margin: 0 auto 30px;
+	margin: 0 auto 20px;
 }
 
 h1 {
-	font-size: 44px;
+	font-size: 38px;
 	margin: 0 0 40px;
 }
 
