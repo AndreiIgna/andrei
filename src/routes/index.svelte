@@ -46,7 +46,11 @@
 
 h1 {
 	font-size: 38px;
-	margin: 0 0 40px;
+	margin: 0 0 20px;
+}
+
+p.location {
+	margin: 0 0 30px;
 }
 
 h3 {
@@ -80,17 +84,23 @@ a {
 
 .books img:hover {
 	border-radius: 3px;
-	transform: perspective(10em) rotateY(1deg) scale(1.4);
+	transform: perspective(10em) rotateY(1deg) scale(1.5);
+	z-index: 50;
 }
 
 .linke {
-	background: rgba(0, 0, 0, 0.04);
+	background-color: rgba(0, 0, 0, 0.04);
 	border-radius: 5px;
 	padding: 10px 15px;
 	display: flex;
 	margin-bottom: 10px;
 	align-items: center;
 	text-decoration: none;
+	transition: background-color ease-in-out 0.1s;
+}
+
+.linke:hover {
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .linke img {
@@ -120,6 +130,7 @@ a {
 		<img src="/andrei.webp" alt="Andrei" width="200" height="200" class="photo" />
 
 		<h1 class="text-center">Andrei Igna</h1>
+		<p class="text-center">📍 Brasov, Romania</p>
 
 		<h3>Current work</h3>
 		<p><img src="/logo-heygov.webp" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>
@@ -145,6 +156,13 @@ a {
 			<div>
 				<p class="name">Twitter</p>
 				<p class="label">@AndreiIgna</p>
+			</div>
+		</a>
+		<a href="https://www.strava.com/athletes/andreihere" class="linke" rel="external">
+			<img src="/icon-strava.svg" alt="Andrei on Strava" />
+			<div>
+				<p class="name">Strava</p>
+				<p class="label">Sometimes I run, sometimes I bike</p>
 			</div>
 		</a>
 		<a href="https://www.linkedin.com/in/andreiigna/" class="linke" rel="external">
