@@ -1,6 +1,5 @@
 <svelte:head>
 	<title>andrei.net</title>
-
 	<meta name="title" content="Andrei's website">
 	<meta name="description" content="Tap this link to learn more about Andrei">
 
@@ -10,12 +9,12 @@
 	<meta property="og:description" content="Tap this link to learn more about Andrei">
 	<meta property="og:image" content="https://andrei.net/andrei-reading.jpg">
 
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:url" content="https://andrei.net/">
-	<meta name="twitter:title" content="Andrei's website">
-	<meta name="twitter:description" content="Tap this link to learn more about Andrei">
-	<meta name="twitter:image" content="https://andrei.net/andrei-reading.jpg">
-	<meta name="twitter:site" content="@AndreiIgna" />
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://andrei.net/">
+	<meta property="twitter:title" content="Andrei's website">
+	<meta property="twitter:description" content="Tap this link to learn more about Andrei">
+	<meta property="twitter:image" content="https://andrei.net/andrei-reading.jpg">
+	<meta property="twitter:site" content="@AndreiIgna" />
 </svelte:head>
 
 <style labg="css">
@@ -130,7 +129,7 @@ a {
 		<img src="/andrei.webp" alt="Andrei" width="200" height="200" class="photo" />
 
 		<h1 class="text-center">Andrei Igna</h1>
-		<p class="text-center">📍 Brasov, Romania</p>
+		<p class="text-center location">📍 Brasov, Romania</p>
 
 		<h3>Current work</h3>
 		<p><img src="/logo-heygov.webp" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>

@@ -1,19 +1,52 @@
+
+@import url("https://cdn.jsdelivr.net/npm/@layered/layered-design@1.5.6/dist/layered.css");
+
 body {
-	padding: 0;
-	margin: 0;
-	box-sizing: content-box;
+	
 }
 
-* {
-	box-sizing: content-box;
+.bg-ui-green {
+	background-color: rgb(37, 79, 26);
 }
 
-.text-center {
-	text-align: center;
+.color-lime {
+	color: rgb(210, 232, 35);
 }
 
-.site {
-	padding: 0;
-	margin: 0;
-	font: 400 16px / 1.5em -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+.navbar {
+	background-color: rgba(255,255,255,0.75);
+	backdrop-filter: blur(9px);
+	margin-top: 0.3rem;
+	border-radius: 23px;
+}
+
+.table thead th {
+	color: #64748b;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 15px;
+	letter-spacing: 0.3px;
+}
+
+.table-hover > tbody > tr:hover {
+	--bs-table-accent-bg: #fafafa;
+}
+
+.card-table {
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+.card-table .table {
+	margin-bottom: 0;
+}
+
+.card-table .table tr td:first-child,
+.card-table .table tr th:first-child {
+	padding-left: 1rem;
+}
+
+.card-table .table tr td:last-child,
+.card-table .table tr th:last-child {
+	padding-right: 1rem;
 }

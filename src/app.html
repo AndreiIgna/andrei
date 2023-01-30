@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 
 		<script defer data-domain="andrei.net" src="https://plausible.io/js/plausible.js"></script>
 	</head>
-	<body>
-		<div>%sveltekit.body%</div>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
