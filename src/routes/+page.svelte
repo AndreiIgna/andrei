@@ -50,7 +50,7 @@ export let data;
 
 h1 {
 	font-size: 38px;
-	margin: 0 0 20px;
+	margin: 0 0 15px;
 }
 
 p.location {
