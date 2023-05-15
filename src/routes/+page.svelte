@@ -1,3 +1,8 @@
+<script>
+/** @type {import('./$types').PageData */
+export let data;
+</script>
+
 <svelte:head>
 	<title>andrei.net</title>
 	<meta name="title" content="Andrei's website">
@@ -129,7 +134,7 @@ a {
 		<img src="/andrei.webp" alt="Andrei" width="200" height="200" class="photo" />
 
 		<h1 class="text-center">Andrei Igna</h1>
-		<p class="text-center location">📍 Brasov, Romania</p>
+		<p class="text-center location">📍 {data.location}</p>
 
 		<h3>Current work</h3>
 		<p><img src="/logo-heygov.webp" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>
