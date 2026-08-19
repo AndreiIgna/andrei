@@ -1,6 +1,6 @@
 /** @type {import('@sveltejs/kit').PageServerLoad} */
 export async function load({ locals, url }) {
 	return {
-		location: 'Barcelona, Spain',
+		location: 'Kempten, Germany',
 	}
 }
