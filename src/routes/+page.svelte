@@ -128,7 +128,7 @@ a {
 </style>
 
 <div class="page-welcome">
-	
+
 	<div class="box">
 
 		<img src="/andrei.webp" alt="Andrei" width="200" height="200" class="photo" />
@@ -138,7 +138,7 @@ a {
 
 		<h3>Current work</h3>
 		<p><img src="/logo-heygov.webp" alt="HeyGov" width="20" height="20" /> I’m the CTO of <a href="https://heygov.com" rel="external">HeyGov</a>, a tech startup that builds software for local governments.</p>
-		<p><img src="/logo-dmns.app.svg" alt="Domains App" width="20" height="20" /> I make <a href="https://domo.domains" rel="external">Domo (Domains App)</a>, a web app that helps with searching, organizing and monitoring domain names.</p>
+		<p><img src="/logo-domo.svg" alt="Domains App" width="20" height="20" /> I make <a href="https://domo.domains" rel="external">Domo (Domains App)</a>, a web app that helps with searching, organizing and monitoring domain names.</p>
 
 		<h3>Books I read</h3>
 		<a href="https://www.goodreads.com/andreihere" rel="external" class="books">
@@ -156,9 +156,9 @@ a {
 
 		<h3>Follow me on the internet</h3>
 		<a href="https://twitter.com/AndreiIgna" class="linke" rel="external">
-			<img src="/icon-twitter.svg" alt="Andrei on Twitter" />
+			<img src="/icon-x.svg" alt="Andrei on X" />
 			<div>
-				<p class="name">Twitter</p>
+				<p class="name">X</p>
 				<p class="label">@AndreiIgna</p>
 			</div>
 		</a>
